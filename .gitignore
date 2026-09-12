@@ -17,3 +17,7 @@ run/
 
 # MacOS system files
 .DS_STORE
+
+# Local libraries / JARs
+libs/*.jar
+*.jar

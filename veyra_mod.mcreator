@@ -318,7 +318,7 @@
     {
       "name": "CrimeEventHandler",
       "type": "code",
-      "compiles": true,
+      "compiles": false,
       "locked_code": true,
       "registry_name": "crime_event_handler",
       "metadata": {
