@@ -1,7 +1,5 @@
 package net.mcreator.veyramod.command;
 
-import org.checkerframework.checker.units.qual.s;
-
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.event.RegisterCommandsEvent;
@@ -23,7 +21,7 @@ public class SetwantedlevelCommand {
 	@SubscribeEvent
 	public static void registerCommand(RegisterCommandsEvent event) {
 		event.getDispatcher()
-				.register(Commands.literal("setwantedlevel").requires(s -> s.hasPermission(4)).then(Commands.argument("target", EntityArgument.player()).then(Commands.argument("level", DoubleArgumentType.doubleArg()).executes(arguments -> {
+				.register(Commands.literal("setwantedlevel").requires(source -> source.hasPermission(4)).then(Commands.argument("target", EntityArgument.player()).then(Commands.argument("level", DoubleArgumentType.doubleArg()).executes(arguments -> {
 					Level world = arguments.getSource().getUnsidedLevel();
 					double x = arguments.getSource().getPosition().x();
 					double y = arguments.getSource().getPosition().y();

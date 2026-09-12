@@ -26,10 +26,11 @@ public class OnBlockBreakCrimeProcedure {
 		if (entity == null)
 			return;
 		{
-			entity.getCapability(VeyraModModVariables.PLAYER_VARIABLES).ifPresent(capability -> {
-				capability.wantedLevel = entity.getCapability(VeyraModModVariables.PLAYER_VARIABLES).orElseGet(VeyraModModVariables.PlayerVariables::new).wantedLevel + 2;
-				capability.markSyncDirty();
-			});
+			var _playerVars = entity.getCapability(VeyraModModVariables.PLAYER_VARIABLES).orElse(null);
+			if (_playerVars != null) {
+				_playerVars.wantedLevel = entity.getCapability(VeyraModModVariables.PLAYER_VARIABLES).orElseGet(VeyraModModVariables.PlayerVariables::new).wantedLevel + 2;
+				_playerVars.markSyncDirty();
+			}
 		}
 	}
 }

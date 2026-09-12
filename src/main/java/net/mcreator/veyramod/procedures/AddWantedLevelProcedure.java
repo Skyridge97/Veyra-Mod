@@ -11,10 +11,11 @@ public class AddWantedLevelProcedure {
 		if (entity == null)
 			return;
 		{
-			entity.getCapability(VeyraModModVariables.PLAYER_VARIABLES).ifPresent(capability -> {
-				capability.wantedLevel = Mth.nextDouble(RandomSource.create(), 0, 6);
-				capability.markSyncDirty();
-			});
+			var _playerVars = entity.getCapability(VeyraModModVariables.PLAYER_VARIABLES).orElse(null);
+			if (_playerVars != null) {
+				_playerVars.wantedLevel = Mth.nextDouble(RandomSource.create(), 0, 6);
+				_playerVars.markSyncDirty();
+			}
 		}
 	}
 }

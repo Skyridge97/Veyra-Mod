@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "overlay",
   "definition": {
     "priority": "NORMAL",
@@ -9,9 +9,7 @@
         "data": {
           "image": "star_gta5_32x32.png",
           "use1Xscale": true,
-          "displayCondition": {
-            "name": "StarCondition1"
-          },
+          "displayCondition": "StarCondition1",
           "anchorPoint": "TOP_RIGHT",
           "x": 404,
           "y": 11,
@@ -23,9 +21,7 @@
         "data": {
           "image": "star_gta5_32x32.png",
           "use1Xscale": true,
-          "displayCondition": {
-            "name": "StarCondition2"
-          },
+          "displayCondition": "StarCondition2",
           "anchorPoint": "TOP_RIGHT",
           "x": 388,
           "y": 11,
@@ -37,9 +33,7 @@
         "data": {
           "image": "star_gta5_32x32.png",
           "use1Xscale": true,
-          "displayCondition": {
-            "name": "StarCondition3"
-          },
+          "displayCondition": "StarCondition3",
           "anchorPoint": "TOP_RIGHT",
           "x": 372,
           "y": 11,
@@ -51,9 +45,7 @@
         "data": {
           "image": "star_gta5_32x32.png",
           "use1Xscale": true,
-          "displayCondition": {
-            "name": "StarCondition4"
-          },
+          "displayCondition": "StarCondition4",
           "anchorPoint": "TOP_RIGHT",
           "x": 356,
           "y": 11,
@@ -65,9 +57,7 @@
         "data": {
           "image": "star_gta5_32x32.png",
           "use1Xscale": true,
-          "displayCondition": {
-            "name": "StarCondition5"
-          },
+          "displayCondition": "StarCondition5",
           "anchorPoint": "TOP_RIGHT",
           "x": 340,
           "y": 11,

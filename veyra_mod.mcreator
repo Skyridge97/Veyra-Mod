@@ -318,7 +318,7 @@
     {
       "name": "CrimeEventHandler",
       "type": "code",
-      "compiles": true,
+      "compiles": false,
       "locked_code": true,
       "registry_name": "crime_event_handler",
       "metadata": {
@@ -383,58 +383,6 @@
         ]
       },
       "path": "~/Procedure_and_CE"
-    },
-    {
-      "name": "ModBlockEntities",
-      "type": "code",
-      "compiles": true,
-      "locked_code": true,
-      "registry_name": "mod_block_entities",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/veyramod/ModBlockEntities.java"
-        ]
-      },
-      "path": "~/registry"
-    },
-    {
-      "name": "MacawPowerNodeBlockEntity",
-      "type": "code",
-      "compiles": true,
-      "locked_code": true,
-      "registry_name": "macaw_power_node_block_entity",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/veyramod/MacawPowerNodeBlockEntity.java"
-        ]
-      },
-      "path": "~/blockentity"
-    },
-    {
-      "name": "MixinMacawLampBlock",
-      "type": "code",
-      "compiles": true,
-      "locked_code": true,
-      "registry_name": "mixin_macaw_lamp_block",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/veyramod/MixinMacawLampBlock.java"
-        ]
-      },
-      "path": "~/mixin"
-    },
-    {
-      "name": "MixinWrenchItem",
-      "type": "code",
-      "compiles": true,
-      "locked_code": true,
-      "registry_name": "mixin_wrench_item",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/veyramod/MixinWrenchItem.java"
-        ]
-      },
-      "path": "~/mixin"
     },
     {
       "name": "BankGUI",
@@ -509,15 +457,7 @@
         "children": []
       },
       {
-        "name": "registry",
-        "children": []
-      },
-      {
         "name": "blockentity",
-        "children": []
-      },
-      {
-        "name": "mixin",
         "children": []
       }
     ]
@@ -543,5 +483,5 @@
     "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "net.mcreator.veyramod"
   },
-  "mcreatorVersion": 202600114619
+  "mcreatorVersion": 202600233518
 }

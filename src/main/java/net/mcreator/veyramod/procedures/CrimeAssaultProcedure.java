@@ -10,17 +10,19 @@ public class CrimeAssaultProcedure {
 			return;
 		if (entity.getCapability(VeyraModModVariables.PLAYER_VARIABLES).orElseGet(VeyraModModVariables.PlayerVariables::new).wantedLevel < 2) {
 			{
-				entity.getCapability(VeyraModModVariables.PLAYER_VARIABLES).ifPresent(capability -> {
-					capability.wantedLevel = 2;
-					capability.markSyncDirty();
-				});
+				var _playerVars = entity.getCapability(VeyraModModVariables.PLAYER_VARIABLES).orElse(null);
+				if (_playerVars != null) {
+					_playerVars.wantedLevel = 2;
+					_playerVars.markSyncDirty();
+				}
 			}
 		} else if (entity.getCapability(VeyraModModVariables.PLAYER_VARIABLES).orElseGet(VeyraModModVariables.PlayerVariables::new).wantedLevel < 3) {
 			{
-				entity.getCapability(VeyraModModVariables.PLAYER_VARIABLES).ifPresent(capability -> {
-					capability.wantedLevel = 3;
-					capability.markSyncDirty();
-				});
+				var _playerVars = entity.getCapability(VeyraModModVariables.PLAYER_VARIABLES).orElse(null);
+				if (_playerVars != null) {
+					_playerVars.wantedLevel = 3;
+					_playerVars.markSyncDirty();
+				}
 			}
 		}
 	}

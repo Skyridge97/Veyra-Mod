@@ -1,12 +1,6 @@
 plugins {
     id 'eclipse'
-    id 'net.neoforged.moddev.legacyforge' version '2.0.141'
-}
-
-repositories {
-    flatDir {
-        dir 'libs'
-    }
+    id 'net.neoforged.moddev.legacyforge' version '2.0.143'
 }
 
 version = '1.0'
@@ -15,7 +9,7 @@ base.archivesName = "modid"
 java.toolchain.languageVersion = JavaLanguageVersion.of(17)
 
 legacyForge {
-    version = "1.20.1-47.4.20"
+    version = "1.20.1-47.4.22"
 
     runs {
         client {
@@ -60,7 +54,6 @@ dependencies {
     compileOnly(annotationProcessor("io.github.llamalad7:mixinextras-common:0.5.0"))
     implementation(jarJar("io.github.llamalad7:mixinextras-forge:0.5.0"))
     annotationProcessor 'org.spongepowered:mixin:0.8.5:processor'
-    compileOnly fileTree(dir: 'libs', include: ['*.jar'])
 }
 
 jar {

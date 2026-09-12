@@ -13,10 +13,11 @@ import com.mojang.brigadier.arguments.DoubleArgumentType;
 public class CmdSetWantedLevelProcedure {
 	public static void execute(CommandContext<CommandSourceStack> arguments) {
 		{
-			(commandParameterEntity(arguments, "target")).getCapability(VeyraModModVariables.PLAYER_VARIABLES).ifPresent(capability -> {
-				capability.wantedLevel = DoubleArgumentType.getDouble(arguments, "level");
-				capability.markSyncDirty();
-			});
+			var _playerVars = (commandParameterEntity(arguments, "target")).getCapability(VeyraModModVariables.PLAYER_VARIABLES).orElse(null);
+			if (_playerVars != null) {
+				_playerVars.wantedLevel = DoubleArgumentType.getDouble(arguments, "level");
+				_playerVars.markSyncDirty();
+			}
 		}
 	}
 

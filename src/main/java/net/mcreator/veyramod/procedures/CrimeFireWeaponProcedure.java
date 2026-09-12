@@ -10,10 +10,11 @@ public class CrimeFireWeaponProcedure {
 			return;
 		if (entity.getCapability(VeyraModModVariables.PLAYER_VARIABLES).orElseGet(VeyraModModVariables.PlayerVariables::new).wantedLevel < 1) {
 			{
-				entity.getCapability(VeyraModModVariables.PLAYER_VARIABLES).ifPresent(capability -> {
-					capability.wantedLevel = 1;
-					capability.markSyncDirty();
-				});
+				var _playerVars = entity.getCapability(VeyraModModVariables.PLAYER_VARIABLES).orElse(null);
+				if (_playerVars != null) {
+					_playerVars.wantedLevel = 1;
+					_playerVars.markSyncDirty();
+				}
 			}
 		}
 	}
