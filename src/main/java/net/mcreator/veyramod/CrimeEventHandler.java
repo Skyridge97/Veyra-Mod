@@ -21,25 +21,28 @@ public class CrimeEventHandler {
     }
 
     @SubscribeEvent
-public static void onEntityDamage(LivingDamageEvent event) {
-    DamageSource source = event.getSource();
-    Entity attacker = source.getEntity();
-    Entity victim = event.getEntity();
+    public static void onEntityDamage(LivingDamageEvent event) {
+        DamageSource source = event.getSource();
+        Entity attacker = source.getEntity();
+        Entity victim = event.getEntity();
 
-    if (attacker instanceof Player player && !player.level().isClientSide()) {
-        if (victim instanceof Player) { // Or specific NPC class
-            CrimeAssaultProcedure.execute(player);
+        if (attacker instanceof Player player && !player.level().isClientSide()) {
+            if (victim instanceof Player) {
+                CrimeAssaultProcedure.execute(player);
+            }
         }
     }
-}
 
     @SubscribeEvent
     public static void onEntityDeath(LivingDeathEvent event) {
         DamageSource source = event.getSource();
         Entity attacker = source.getEntity();
+        Entity victim = event.getEntity();
 
         if (attacker instanceof Player player && !player.level().isClientSide()) {
-            CrimeMurderProcedure.execute(player);
+            if (victim instanceof Player) {
+                CrimeMurderProcedure.execute(player);
+            }
         }
     }
 }

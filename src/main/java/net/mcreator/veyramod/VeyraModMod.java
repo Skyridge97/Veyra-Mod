@@ -43,7 +43,7 @@ public class VeyraModMod {
 		IEventBus bus = context.getModEventBus();
 		VeyraModModMenus.REGISTRY.register(bus);
 		// Start of user code block mod init
-		net.mcreator.veyramod.registry.ModBlockEntities.BLOCK_ENTITIES.register(bus);
+		// net.mcreator.veyramod.registry.ModBlockEntities.BLOCK_ENTITIES.register(bus);
 		// End of user code block mod init
 	}
 
