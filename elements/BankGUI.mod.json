@@ -1,0 +1,59 @@
+{
+  "_fv": 85,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 200,
+    "height": 170,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "name": "label_title",
+          "text": {
+            "fixedValue": "Bienvenue à la VeyBank"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "x": 151,
+          "y": 41,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "trade_slot.png",
+          "use1Xscale": false,
+          "x": 129,
+          "y": 59,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "trade_slot.png",
+          "use1Xscale": false,
+          "x": 129,
+          "y": 87,
+          "locked": false
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 20,
+      "sy": 20,
+      "ox": 1,
+      "oy": 1,
+      "snapOnGrid": false
+    }
+  }
+}

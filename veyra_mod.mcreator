@@ -1,0 +1,547 @@
+{
+  "mod_elements": [
+    {
+      "name": "WantedOverlay",
+      "type": "overlay",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wanted_overlay",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/veyramod/client/screens/WantedOverlayOverlay.java"
+        ]
+      }
+    },
+    {
+      "name": "StarCondition1",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "star_condition_1",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/veyramod/procedures/StarCondition1Procedure.java"
+        ]
+      },
+      "path": "~/StarCondition"
+    },
+    {
+      "name": "StarCondition2",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "star_condition_2",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/veyramod/procedures/StarCondition2Procedure.java"
+        ]
+      },
+      "path": "~/StarCondition"
+    },
+    {
+      "name": "StarCondition3",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "star_condition_3",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/veyramod/procedures/StarCondition3Procedure.java"
+        ]
+      },
+      "path": "~/StarCondition"
+    },
+    {
+      "name": "StarCondition4",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "star_condition_4",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/veyramod/procedures/StarCondition4Procedure.java"
+        ]
+      },
+      "path": "~/StarCondition"
+    },
+    {
+      "name": "StarCondition5",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "star_condition_5",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/veyramod/procedures/StarCondition5Procedure.java"
+        ]
+      },
+      "path": "~/StarCondition"
+    },
+    {
+      "name": "AddWantedLevel",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "add_wanted_level",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/veyramod/procedures/AddWantedLevelProcedure.java"
+        ]
+      },
+      "path": "~/Procedure_and_CE"
+    },
+    {
+      "name": "WantedLevelTo5",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wanted_level_to_5",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/veyramod/procedures/WantedLevelTo5Procedure.java"
+        ]
+      },
+      "path": "~/WantedLevelTo"
+    },
+    {
+      "name": "WantedLevelTo1",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wanted_level_to_1",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/veyramod/procedures/WantedLevelTo1Procedure.java"
+        ]
+      },
+      "path": "~/WantedLevelTo"
+    },
+    {
+      "name": "WantedLevelTo2",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wanted_level_to_2",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/veyramod/procedures/WantedLevelTo2Procedure.java"
+        ]
+      },
+      "path": "~/WantedLevelTo"
+    },
+    {
+      "name": "WantedLevelTo3",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wanted_level_to_3",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/veyramod/procedures/WantedLevelTo3Procedure.java"
+        ]
+      },
+      "path": "~/WantedLevelTo"
+    },
+    {
+      "name": "WantedLevelTo4",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wanted_level_to_4",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/veyramod/procedures/WantedLevelTo4Procedure.java"
+        ]
+      },
+      "path": "~/WantedLevelTo"
+    },
+    {
+      "name": "OnBlockBreakCrime",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "on_block_break_crime",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/veyramod/procedures/OnBlockBreakCrimeProcedure.java"
+        ]
+      },
+      "path": "~/Procedure_and_CE"
+    },
+    {
+      "name": "WantedLevelTo0",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wanted_level_to_0",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/veyramod/procedures/WantedLevelTo0Procedure.java"
+        ]
+      },
+      "path": "~/WantedLevelTo"
+    },
+    {
+      "name": "WantedLevelTo12",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wanted_level_to_12",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/veyramod/procedures/WantedLevelTo12Procedure.java"
+        ]
+      },
+      "path": "~/WantedLevelTo"
+    },
+    {
+      "name": "Setwantedlevel",
+      "type": "command",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "setwantedlevel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/veyramod/command/SetwantedlevelCommand.java"
+        ]
+      },
+      "path": "~/Command"
+    },
+    {
+      "name": "CmdSetWantedLevel",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cmd_set_wanted_level",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/veyramod/procedures/CmdSetWantedLevelProcedure.java"
+        ]
+      },
+      "path": "~/Procedure_and_CE"
+    },
+    {
+      "name": "CrimeEventHandler",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "crime_event_handler",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/veyramod/CrimeEventHandler.java"
+        ]
+      }
+    },
+    {
+      "name": "CrimeFireWeapon",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crime_fire_weapon",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/veyramod/procedures/CrimeFireWeaponProcedure.java"
+        ]
+      },
+      "path": "~/Procedure_and_CE"
+    },
+    {
+      "name": "CrimeMurder",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crime_murder",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/veyramod/procedures/CrimeMurderProcedure.java"
+        ]
+      },
+      "path": "~/Procedure_and_CE"
+    },
+    {
+      "name": "CrimeAssault",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crime_assault",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/veyramod/procedures/CrimeAssaultProcedure.java"
+        ]
+      },
+      "path": "~/Procedure_and_CE"
+    },
+    {
+      "name": "ModBlockEntities",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "mod_block_entities",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/veyramod/ModBlockEntities.java"
+        ]
+      },
+      "path": "~/registry"
+    },
+    {
+      "name": "MacawPowerNodeBlockEntity",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "macaw_power_node_block_entity",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/veyramod/MacawPowerNodeBlockEntity.java"
+        ]
+      },
+      "path": "~/blockentity"
+    },
+    {
+      "name": "MixinMacawLampBlock",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "mixin_macaw_lamp_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/veyramod/MixinMacawLampBlock.java"
+        ]
+      },
+      "path": "~/mixin"
+    },
+    {
+      "name": "MixinWrenchItem",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "mixin_wrench_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/veyramod/MixinWrenchItem.java"
+        ]
+      },
+      "path": "~/mixin"
+    },
+    {
+      "name": "BankGUI",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bank_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/veyramod/world/inventory/BankGUIMenu.java",
+          "src/main/java/net/mcreator/veyramod/client/gui/BankGUIScreen.java"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "wantedLevel",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0.0"
+    },
+    {
+      "name": "wantedTimer",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0.0"
+    },
+    {
+      "name": "isBlinking",
+      "type": "logic",
+      "scope": "player_persistent",
+      "value": "false"
+    }
+  ],
+  "sound_elements": [],
+  "tag_elements": {},
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "gui.veyra_mod.bank_gui.label_title": "Bienvenue à la VeyBank"
+    }
+  },
+  "metadata": {
+    "files": [
+      "src/main/java/net/mcreator/veyramod/init/VeyraModModScreens.java",
+      "src/main/java/net/mcreator/veyramod/network/MenuStateUpdateMessage.java",
+      "src/main/java/net/mcreator/veyramod/init/VeyraModModMenus.java",
+      "src/main/resources/META-INF/mods.toml",
+      "src/main/java/net/mcreator/veyramod/network/VeyraModModVariables.java",
+      "src/main/resources/pack.mcmeta",
+      "src/main/java/net/mcreator/veyramod/VeyraModMod.java"
+    ]
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "WantedLevelTo",
+        "children": []
+      },
+      {
+        "name": "Command",
+        "children": []
+      },
+      {
+        "name": "StarCondition",
+        "children": []
+      },
+      {
+        "name": "Procedure_and_CE",
+        "children": []
+      },
+      {
+        "name": "registry",
+        "children": []
+      },
+      {
+        "name": "blockentity",
+        "children": []
+      },
+      {
+        "name": "mixin",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "veyra_mod",
+    "modName": "Veyra Mod",
+    "version": "1.0.0",
+    "author": "MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [
+      "tacz"
+    ],
+    "dependencies": [
+      "amount",
+      "entity"
+    ],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.veyramod"
+  },
+  "mcreatorVersion": 202600114619
+}
